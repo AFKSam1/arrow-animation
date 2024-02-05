@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+
+.spacer {
+    height: 100vh;
+}
+
+.grid-why {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    color: white;
+    width: 80vw;
+}
+
+.grid-why-item {
+    display: flex;
+    padding: 0px;
+    width: 50%;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.grid-why-item:nth-child(2) {
+    align-self: end;
+    justify-content: left;
+}
+
+.grid-why-item:nth-child(4) {
+    align-self: end;
+    justify-content: left;
+}
+
+.grid-why-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20%;
+}
+
+.arrow-img {
+    position: relative;
+    top: +25px;
+}

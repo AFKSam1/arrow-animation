@@ -1,0 +1,17 @@
+{
+  "name": "arrow-animation",
+  "version": "1.0.0",
+  "description": "Small project showcasing a frontend arrow animation created with GSAP ScrollTrigger.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "http-server": "^14.1.1"
+  }
+}
